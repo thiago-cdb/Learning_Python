@@ -1,3 +1,9 @@
-# Four Numbers Sum
+# Sum of Four Numbers
 
-write a program that adds 4 numbers and displays the result.
+## Write a program that receives the following values:
+* Four numbers
+
+## The program should calculate the sum of all four numbers.
+
+### The program should display:
+* The sum of the values.
