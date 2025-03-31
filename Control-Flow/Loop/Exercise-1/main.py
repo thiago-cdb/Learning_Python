@@ -1,6 +1,6 @@
-i = 'y'
+programRepeater = 'y'
 
-while i.lower() == 'y':
+while programRepeater.lower() == 'y':
     initialNumber = int(input('Enter the first number of range: '))
     finalNumber = int(input('Enter the last number of range: '))
 
@@ -10,7 +10,7 @@ while i.lower() == 'y':
         result = 'even' if number % 2 == 0 else 'odd'
         print(f'{number} is {result}')
 
-    i = input("Do you want to use the program again? (y/n): ").strip().lower()
+    programRepeater = input("Do you want to use the program again? (y/n): ").strip().lower()
     
 print('Program terminated.')
     
